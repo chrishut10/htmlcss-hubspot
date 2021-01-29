@@ -1,0 +1,171 @@
+/* regole generali css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/* header */
+
+/* prima sezione del header */
+.contenitoreh{
+  background: 	rgb(242, 242, 242);
+  height: 100px;
+  border-bottom: 1px solid black;
+}
+
+.division1{
+  height: 100px;
+  width: 40%;
+  float: left;
+  margin-left: 10%;
+
+}
+
+.division2{
+  height: 100px;
+  width: 40%;
+  float: left;
+  margin-right: 10%;
+}
+
+.language{
+  border: 0px;
+  background-color: rgb(242, 242, 242) ;
+}
+
+#dir > li{
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  line-height: 90px;
+}
+
+.fila{
+  margin-left: 60%;
+  line-height: 90px;
+
+}
+
+.fila > li{
+  margin: 10px 10px 0 0;
+  display: inline-block;
+}
+
+#login{
+  background-color: white;
+  border: 1px solid rgb(255, 127, 80);
+  color: orange;
+  margin: 10px 10px 0 0;
+  border-radius: 5px;
+  padding: 8px 5px 8px 5px;
+}
+
+.orange{
+  background-color: rgb(255, 127, 80);
+  border: 1px solid orange;
+  color: white;
+  margin: 10px 10px 0 0;
+  border-radius: 5px;
+  padding: 8px 5px 8px 5px;
+}
+
+/* seconda sezione del header */
+
+.containernav{
+  height: 100px;
+
+}
+
+.nav1{
+  height: 100px;
+  width: 40%;
+  float: left;
+  margin-left: 10%;
+}
+
+.nav2{
+  height: 100px;
+  width: 40%;
+  float: left;
+  margin-right: 10%;
+}
+
+.nav1 > img{
+  margin: 35px 0;
+}
+
+#space > li{
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  line-height: 90px;
+}
+
+#space{
+  margin-left: 25%;
+}
+
+.tech{
+  border: 0px;
+  background-color: white ;
+  margin: 0 10px 0 5px
+}
+
+/* 3 sezione del header */
+
+#containercover{
+  background-image: url(../img/jumbotron.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 750px;
+}
+
+.text-image{
+  height: 650px;
+  width: 30%;
+  margin-left: 10%;
+}
+
+.text-image > h1{
+  font-size: 50px;
+  line-height: 1.1;
+  padding: 60px 0 10px 0;
+}
+.text-image > p{
+  text-align: left;
+  line-height: 1.6;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.text-image > .orange{
+  background-color: rgb(255, 127, 80);
+  border: 1px solid orange;
+  color: white;
+  margin-top: 30px;
+  margin-right: 0;
+  border-radius: 5px;
+  padding: 20px 30px;
+}
+
+div > .grow{
+  text-align: left;
+  line-height: 1.6;
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+.block-turquoise{
+  background-color: rgb(173, 235, 233);
+  height: 100px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+/* main */
+.powerful{
+  height: 300px;
+}
