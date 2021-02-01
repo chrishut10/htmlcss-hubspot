@@ -614,5 +614,106 @@ li > img{
   height: 400px;
   object-fit: contain;
   margin-left: 35%;
+  padding-bottom: 20px;
+}
 
+
+/* parte del footer */
+
+.footer{
+  background-color:		rgb(42, 77, 111);
+}
+
+.footer  .square{
+  height: 320px;
+  border-top: 0;
+  width: 25%;
+  float: left;
+}
+
+.square > h3{
+  padding: 20px 0;
+  color: white;
+}
+
+.square > ul{
+  list-style-type: none;
+}
+
+.square > ul li{
+  padding-top: 10px;
+  font-size: 15px;
+  color: white;
+}
+
+li > .buttongrey{
+  padding: 10px 5px;
+  font-size: 12px;
+  border: 0;
+  border-radius: 5px;
+  color: trasparent;
+}
+
+#icons i{
+  color: white;
+  margin: 20px 0;
+  margin-right: 15px;
+}
+
+/* #icons i:first-child{
+  margin-left: 0;
+} */
+
+.footer .square{
+  border: 0;
+}
+
+.footer .linea-languages{
+  height: 100px;
+  border-bottom: 1px solid white;
+  margin: 0 10%;
+}
+
+.linea-languages > ul{
+  /* margin: 0 10%; */
+  list-style-type: none;
+  /* line-height: 80px; */
+  padding-top: 60px;
+  text-align: center;
+}
+
+#languages > li{
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.legal{
+  float: left;
+  height: 100px;
+  width: 50%;
+  position: relative;
+}
+
+.legal > img{
+  padding-top: 20px;
+}
+
+.legal > p{
+  color: white;
+}
+
+.legal > ul{
+  list-style-type: none;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+#unique > li{
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 20px;
+  color: white;
 }
