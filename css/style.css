@@ -566,79 +566,65 @@ li > .option{
 /* other section */
 
 /* 1 zona */
+.spazio{
+  padding: 20px 0;
+  text-align: center;
+
+}
 .parte1{
   height: 220px;
-  width: 25%;
+  width: 35%;
   float: left;
 }
 
 .parte2{
   height: 220px;
-  width: 75%;
+  width: 65%;
   float: left;
 }
 
 .parte1 > h3{
   font-size: 50px;
-  text-align: center;
-  margin: 0 20px;
-  margin-top: 30px;
-  padding-right: 60px;
+  margin-bottom: 30px;
+  /* text-align: center; */
+  /* margin: 0 20px;
+  padding-right: 60px; */
 }
 
 .parte1 > p{
   font-size: 20px;
-  text-align: left;
-  margin: 0px 60px;
-  margin-top: 20px;
+  margin: 0 auto;
+  width: 50%;
+  /* text-align: left; */
+  /* margin-top: 20px; */
 }
 
-#center{
-  padding-top: 50px;
-  float: right;
-  /* margin: 10px 20px; */
-  /* height: 100px;
-  width: 100%; */
-  /* width: 70%; */
-  /* margin: auto; */
-}
-
-.image1 > li{
-  display: inline-block;
-  margin: 0 10px;
-
-}
-
-.image1{
-  float: right;
-}
-
-li > img{
-  width: 150px;
-  height: 50px;
-  object-fit: contain;
-}
-
-
-
-#center2{
-  padding-bottom: 50px;
-  float: right;
-  /* height: 100px;
-  margin: auto;
-  width: 70%; */
+.parte2 img{
+  padding: 0 15px;
+  max-width: 20%;
+  margin: 2% 2%;
+  height: auto;
+  vertical-align: middle;
 }
 
 
 /* 2 zona */
 
-.zona{
+.zona1{
   height: 400px;
   float: left;
-  width: 50%;
+  width: 40%;
+  text-align: left;
 }
 
-.zona > .orange{
+.zona2{
+  height: 400px;
+  float: left;
+  width: 60%;
+  text-align: right;
+}
+
+.zona1 > .orange{
   background-color: rgb(255, 127, 80);
   color: white;
   margin: 20px 0;
@@ -646,24 +632,27 @@ li > img{
   padding: 20px 30px;
 }
 
-.zona > h2{
-  font-size: 40px;
-  padding: 20px 0px;
+.zona1 > h2{
+  font-size: 35px;
+  width: 80%;
+  margin-bottom: 30px;
 }
 
-.zona > p{
-  padding: 20px 10px 20px 0px;
-  padding-right: 100px;
+.zona1 > p{
+  /* padding: 20px 10px 20px 0px;
+  padding-right: 100px; */
   text-align: left;
-  font-size: 20px;
+  font-size: 15px;
+  width: 80%;
+
 }
 
-.zona > img{
-  width: 300px;
-  height: 400px;
-  object-fit: contain;
+.zona2 > img{
+  width: auto;
+  height: 350px;
+  /* object-fit: contain;
   margin-left: 35%;
-  padding-bottom: 20px;
+  padding-bottom: 20px; */
 }
 
 
