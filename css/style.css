@@ -47,26 +47,28 @@ body{
   width: 50%;
   float: left;
   margin-right: 10%;
-  position: relative;
+  /* position: relative; */
 }
 
-.language{
+/* .language{
   border: 0px;
   background-color: rgb(242, 242, 242) ;
-}
+} */
 
 #dir > li{
   display: inline-block;
   margin: 0;
-  line-height: 60px;
+  line-height: 55px;
 }
+
 
 .fila{
   /* margin-left: 60%; */
-  position: absolute;
+  /* position: absolute; */
   line-height: 50px;
   top: 0px;
   right:0;
+  float: right;
 }
 
 .fila > li{
@@ -76,9 +78,9 @@ body{
 
 #dir li a{
   color: black;
-  margin: 0 5px;
   padding: 0 5px;
-  border-left: 1px solid black;
+  /* margin: 0 5px; */
+  /* border-left: 1px solid black; */
 }
 
 a{
@@ -92,7 +94,7 @@ a{
   color: orange;
   margin: 0 10px;
   border-radius: 5px;
-  padding: 8px 5px 8px 5px;
+  padding: 4px 8px 4px 8px;
 }
 
 .orange{
@@ -101,7 +103,7 @@ a{
   color: white;
   /* margin: 10px 10px 0 0; */
   border-radius: 5px;
-  padding: 8px 5px 8px 5px;
+  padding: 4px 5px 4px 5px;
 }
 
 /* seconda sezione del header */
@@ -131,14 +133,14 @@ a{
 }
 
 #space li:last-child{
-  margin-right: 0;
+  padding-right: 0;
 }
 
 
 #space > li{
   display: inline-block;
-  margin:0 10px;
-  line-height: 90px;
+  padding:0 10px;
+  line-height: 100px;
 }
 
 
@@ -148,9 +150,13 @@ a{
   float: right;
 }
 
-.tech{
-  border: 0px;
+.nav2 ul li a i{
+  padding-left: 10px;
 }
+
+/* .tech{
+  border: 0px;
+} */
 
 
 /* 3 sezione del header */
@@ -600,19 +606,20 @@ li > .option{
 .image1 > li{
   display: inline-block;
   margin: 0 10px;
+
 }
 
-/* .image1{
-  bottom: 0;
-  left: 200px;
-  position: absolute;
-} */
+.image1{
+  float: right;
+}
 
 li > img{
   width: 150px;
   height: 50px;
   object-fit: contain;
 }
+
+
 
 #center2{
   padding-bottom: 50px;
@@ -688,12 +695,13 @@ li > img{
   color: white;
 }
 
-li > .buttongrey{
-  padding: 10px 5px;
-  font-size: 12px;
-  border: 0;
+.buttongrey{
+  background: rgb(245, 248, 250);
+  padding: 8px 5px;
+  font-size: 15px;
   border-radius: 5px;
-  color: trasparent;
+  line-height: 50px;
+  color: rgb(42, 77, 111);
 }
 
 #icons i{
